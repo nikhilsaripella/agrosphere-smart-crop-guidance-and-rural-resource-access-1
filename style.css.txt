@@ -1,0 +1,101 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f9f4;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #4caf50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #a5d6a7;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    background: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2e7d32;
+    color: white;
+    margin-top: 20px;
+}

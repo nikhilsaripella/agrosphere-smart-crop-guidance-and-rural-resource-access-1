@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSphere</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f9f4;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #4caf50;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #2e7d32;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        button {
+            background: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #2e7d32;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AgroSphere</h1>
+    <p>Smart Crop Guidance & Rural Resource Access</p>
+</header>
+
+<nav>
+    <a href="#crops">Crops</a>
+    <a href="#prices">Crop Prices</a>
+    <a href="#fertilizers">Fertilizers</a>
+    <a href="#soil">Soil Fertility</a>
+    <a href="#sell">Sell to Traders</a>
+</nav>
+
+<section id="crops">
+    <h2>Types of Crops</h2>
+    <ul>
+        <li>Rice</li>
+        <li>Wheat</li>
+        <li>Maize</li>
+        <li>Sugarcane</li>
+        <li>Pulses</li>
+    </ul>
+</section>
+
+<section id="prices">
+    <h2>Crop Prices (₹ per quintal)</h2>
+    <table>
+        <tr>
+            <th>Crop</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Rice</td>
+            <td>₹2200</td>
+        </tr>
+        <tr>
+            <td>Wheat</td>
+            <td>₹2100</td>
+        </tr>
+        <tr>
+            <td>Maize</td>
+            <td>₹1800</td>
+        </tr>
+    </table>
+</section>
+
+<section id="fertilizers">
+    <h2>Types of Fertilizers & Prices</h2>
+    <table>
+        <tr>
+            <th>Fertilizer</th>
+            <th>Price (₹)</th>
+        </tr>
+        <tr>
+            <td>Urea</td>
+            <td>₹270</td>
+        </tr>
+        <tr>
+            <td>DAP</td>
+            <td>₹1350</td>
+        </tr>
+        <tr>
+            <td>Potash</td>
+            <td>₹1700</td>
+        </tr>
+    </table>
+</section>
+
+<section id="soil">
+    <h2>Soil Fertility</h2>
+    <p>Check your soil type and nutrient levels:</p>
+    <ul>
+        <li>Alluvial Soil – High fertility</li>
+        <li>Black Soil – Good for cotton</li>
+        <li>Red Soil – Needs fertilizers</li>
+        <li>Laterite Soil – Low fertility</li>
+    </ul>
+</section>
+
+<section id="sell">
+    <h2>Sell to Traders</h2>
+    <form>
+        <label>Farmer Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Crop Type:</label>
+        <select>
+            <option>Rice</option>
+            <option>Wheat</option>
+            <option>Maize</option>
+        </select>
+
+        <label>Quantity (quintals):</label>
+        <input type="number" placeholder="Enter quantity">
+
+        <label>Contact Number:</label>
+        <input type="tel" placeholder="Enter phone number">
+
+        <label>Location:</label>
+        <textarea placeholder="Enter village/district"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 AgroSphere | Empowering Farmers</p>
+</footer>
+
+</body>
+</html>
